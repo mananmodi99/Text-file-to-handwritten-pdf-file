@@ -1,5 +1,5 @@
 from PIL import Image
-BG = Image.open("bg.png")
+BG = Image.open("anyfile.png")
 sizeOfSheet =BG.width
 gap, _  = 0,0
 allowedChars = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM,.-?!() 1234567890'
